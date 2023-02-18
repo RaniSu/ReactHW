@@ -1,0 +1,84 @@
+.props {
+  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.preProps {
+    background-image: linear-gradient(white, rgb(94, 94, 228), rgb(129, 69, 69));
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.preProps p {
+  background-image: linear-gradient(white, rgb(70, 189, 222));
+  color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.props section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.props figure{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0 31px 31px white;
+    border-radius: 4rem;
+
+}
+
+.props figcaption{
+
+    position:absolute;
+    opacity: 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+
+.props figure:hover figcaption{
+
+    opacity: 1;
+    
+}
+
+.down_arr{
+
+    width: 4rem;
+    border-radius: 50%;
+    background: none;
+    background-color: none;
+    border: none;
+    padding: 1rem;
+}
+
+.down_arr:hover{
+
+    background-image: linear-gradient(white,rgb(52, 192, 243),white);
+
+}
+
+.imgDown{
+
+
+}
